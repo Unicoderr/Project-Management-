@@ -253,12 +253,12 @@ export const inviteTeamMember = async (req, res, next) => {
     </div>
     <div style="padding: 30px;">
       <p style="font-size: 16px; color: #666; margin-bottom: 20px;">Dear ${req.body.name},</p>
-      <p style="font-size: 16px; color: #666; margin-bottom: 20px;">You have been invited to join a team <b>${team.name}</b> on VEXA by <b>${user.name}</b>. Please follow the link below to accept the invitation:</p>
+      <p style="font-size: 16px; color: #666; margin-bottom: 20px;">You have been invited to join a team <b>${team.name}</b> on Unicoderr by <b>${user.name}</b>. Please follow the link below to accept the invitation:</p>
       <div style="text-align: center;">
         <a href=${link} style="background-color: #854CE6; color: #FFF; text-decoration: none; font-size: 16px; font-weight: 500; padding: 10px 30px; border-radius: 5px;">Accept Invitation</a>
       </div>
       <p style="font-size: 16px; color: #666; margin-top: 30px;">Best regards,</p>
-      <p style="font-size: 16px; color: #666;">The VEXA Team</p>
+      <p style="font-size: 16px; color: #666;">The Unicoderr Team</p>
     </div>
   </div>
 </div>

@@ -18,7 +18,7 @@ import {
   AddTaskRounded,
 } from "@mui/icons-material";
 import { tagColors } from "../data/data";
-import LogoIcon from "../Images/Logo.svg";
+import LogoIcon from "../../src/Images/Logo.svg";
 import { useDispatch } from "react-redux";
 import { logout } from "../redux/userSlice";
 import { openSnackbar } from "../redux/snackbarSlice";
@@ -156,7 +156,7 @@ const Menu = ({ darkMode, setDarkMode, setMenuOpen, setNewTeam }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit", alignItems: 'center',display: 'flex' }}>
           <Logo>
             <Image src={LogoIcon} />
-            VEXA
+            Unicoderr
           </Logo>
         </Link>
         <Close>
