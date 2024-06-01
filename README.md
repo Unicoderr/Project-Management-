@@ -1,4 +1,4 @@
-# Vexa Project
+# Unicoderr Project
 Welcome to Unicoderr - a project management app designed to help you manage your projects more efficiently.
 
 ## Features
@@ -24,11 +24,11 @@ Welcome to Unicoderr - a project management app designed to help you manage your
 - Material-UI
 - Nodemailer
 
-Installation
+<!-- Installation
 <!-- 
 ![image]()
 # Project-Management-
 # Project-Management-
 # Project-Management-
 # Project-Management-
-# Project-Management- -->
+# Project-Management- --> 
