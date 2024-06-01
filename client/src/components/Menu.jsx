@@ -80,7 +80,9 @@ const Close = styled.div`
     display: block;
   }
 `;
-
+const LogoImage = styled.img`
+  height: 32px;
+`;
 const Image = styled.img`
   height: 32px;
 `;
@@ -155,8 +157,10 @@ const Menu = ({ darkMode, setDarkMode, setMenuOpen, setNewTeam }) => {
       <Flex>
         <Link to="/" style={{ textDecoration: "none", color: "inherit", alignItems: 'center',display: 'flex' }}>
           <Logo>
-            <Image src={LogoIcon} />
+          <Logo>
+            <LogoImage src={LogoIcon} />
             Unicoderr
+          </Logo>
           </Logo>
         </Link>
         <Close>
