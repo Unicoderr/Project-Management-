@@ -8,10 +8,16 @@
 [build]
   # Directory to change to before starting a build
   base = "client" # Adjust this if your frontend code is in a different directory
+
+  # Build command
   command = "npm run build"
-  publish = "build"
-  functions = "functions"
+
+  # Directory to publish (relative to the base directory)
+  publish = "build" # Adjust this to match your build output directory
 
   [build.environment]
     # Define environment variables here
     REACT_APP_API_KEY = "https://unicoderr-projectmanagement.netlify.app/"
+
+# Directory where Netlify Functions are located
+functions = "functions" # Adjust this to match the directory where your Netlify Functions are located
