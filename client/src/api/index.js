@@ -75,7 +75,7 @@ import axios from 'axios';
 
 // Create an instance of axios with baseURL
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL || 'https://unicoderr-projectmanagement.netlify.app/',
+  baseURL: process.env.REACT_APP_API_BASE_URL || 'https://project-management-mm2x.onrender.com/',
 });
 
 // Auth APIs
