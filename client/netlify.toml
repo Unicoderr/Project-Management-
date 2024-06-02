@@ -17,7 +17,7 @@
 
   [build.environment]
     # Define environment variables here
-    REACT_APP_API_KEY = "https://unicoderr-projectmanagement.netlify.app/"
+    REACT_APP_API_KEY = "https://project-management-mm2x.onrender.com/"
 
 # Directory where Netlify Functions are located
 functions = "functions" # Adjust this to match the directory where your Netlify Functions are located
