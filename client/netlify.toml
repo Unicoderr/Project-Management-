@@ -1,11 +1,6 @@
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
 [build]
-  base = "client" # Adjust this if your frontend code is in a different directory
+  base = "client"
   command = "npm run build"
-  publish = "client/build" # Adjust this to match your build output directory
+  publish = "client/.next"
   [build.environment]
     REACT_APP_API_KEY = "https://unicoderr-projectmanagement.netlify.app/"
