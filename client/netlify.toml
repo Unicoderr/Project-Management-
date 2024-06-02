@@ -4,15 +4,8 @@
   status = 200
 
 [build]
-  # Directory to change to before starting a build
   base = "client" # Adjust this if your frontend code is in a different directory
-
-  # Build command
   command = "npm run build"
-
-  # Directory to publish (relative to the base directory)
-  publish = "build" # Adjust this to match your build output directory
-
+  publish = "client/.next" # Adjust this to match your build output directory
   [build.environment]
-    # Define environment variables here
     REACT_APP_API_KEY = "https://unicoderr-projectmanagement.netlify.app/"
