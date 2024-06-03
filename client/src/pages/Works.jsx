@@ -35,7 +35,6 @@ const Container = styled.div`
     padding: 10px 10px;
   }
 `;
-
 const Header = styled.div``;
 
 const Column = styled.div`

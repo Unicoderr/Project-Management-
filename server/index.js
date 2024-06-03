@@ -105,7 +105,7 @@ const connect = () => {
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/project', projectRoutes);
-app.use('/api/team', teamRoutes);
+app.use('/api/teams', teamRoutes);
 app.use((err, req, res, next) => {
   const status = err.status || 500;
   const message = err.message || 'Something went wrong';
