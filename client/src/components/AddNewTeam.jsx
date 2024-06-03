@@ -1063,6 +1063,8 @@ const AddNewTeam = ({ setNewTeam }) => {
     data[index] = { ...data[index], name: event.target.name, icon, link: event.target.value };
     setTeamTools(data);
   };
+  
+
   const handleCreateTeam = async () => {
     setLoading(true);
     setDisabled(true);
@@ -1119,6 +1121,7 @@ const AddNewTeam = ({ setNewTeam }) => {
       }
     }
   };
+  
   
 
   return (

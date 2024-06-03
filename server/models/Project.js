@@ -42,7 +42,7 @@ const ProjectSchema = new mongoose.Schema({
             },
             icon: {
                 type: String,
-                require: true,
+                required: true,
             }
         }],
         default: [],
@@ -61,7 +61,7 @@ const ProjectSchema = new mongoose.Schema({
             },
             access: {
                 type: String,
-                require: true,
+                required: true,
                 default: "View Only",
                 unique: false,
             }
@@ -73,4 +73,6 @@ const ProjectSchema = new mongoose.Schema({
     { timestamps: true }
 );
 
-export default mongoose.model("Project", ProjectSchema);
+const Project = mongoose.model("Project", ProjectSchema);
+
+export default Project;
